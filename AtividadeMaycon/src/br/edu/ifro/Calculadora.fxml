@@ -19,5 +19,15 @@
       <Button fx:id="btnSoma1" layoutX="293.0" layoutY="83.0" mnemonicParsing="false" onAction="#multiplicacao" text="Subtração" />
       <Button fx:id="btnSoma3" layoutX="293.0" layoutY="115.0" mnemonicParsing="false" onAction="#divisao" text="Divisão" />
       <Button fx:id="btnSoma31" layoutX="294.0" layoutY="154.0" mnemonicParsing="false" onAction="#limpar" text="Limpar" />
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="409.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#AbrirCadastroAluno" text="Alunos" />
+                  <MenuItem mnemonicParsing="false" onAction="#fecharProjeto" text="Fechar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
    </children>
 </AnchorPane>
